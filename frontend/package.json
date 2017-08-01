@@ -1,0 +1,46 @@
+{
+  "name": "trader-frontend",
+  "version": "1.0.0",
+  "description": "Prototyping tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "sass-dev": "sass --watch assets/stylesheets:public",
+    "build": "webpack -p && sass --update assets/stylesheets:public"
+  },
+  "author": "NMC",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "body-parser": "^1.16.1",
+    "chart.js": "^2.6.0",
+    "express": "^4.14.1",
+    "immutable": "^3.8.1",
+    "lodash": "^4.17.4",
+    "pug": "^2.0.0-beta11",
+    "react": "^15.4.2",
+    "react-chartjs-2": "^2.5.5",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-redux-chart": "0.0.5",
+    "react-router": "^3.0.2",
+    "redux": "^3.6.0",
+    "redux-form": "^6.6.3",
+    "redux-thunk": "^2.2.0",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "react-hot-loader": "^3.0.0-beta.1",
+    "redux-devtools": "^3.3.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.2",
+    "webpack-dev-server": "^2.4.3",
+    "webpack-hot-middleware": "^2.18.0"
+  }
+}
